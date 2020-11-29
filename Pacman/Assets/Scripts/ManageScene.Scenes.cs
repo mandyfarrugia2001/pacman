@@ -2,6 +2,6 @@
 {
     public enum Scenes
     {
-        Menu, Main, Lose, Win
+        Menu, Instructions, Main, Lose, Win
     }
 } 

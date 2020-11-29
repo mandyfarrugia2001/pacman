@@ -10,12 +10,21 @@ public partial class ManageScene : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
     }
 
+    public void GoBackToPreviousScene()
+    {
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex - 1;
+        SceneManager.LoadScene(sceneIndex);
+    }
+
     public void LoadScene(string scene)
     {
         switch(scene)
         {
             case "Menu":
                 SceneManager.LoadScene("Menu");
+                break;
+            case "Instructions":
+                SceneManager.LoadScene("Instructions");
                 break;
             case "Main":
                 SceneManager.LoadScene("Main");
@@ -38,6 +47,9 @@ public partial class ManageScene : MonoBehaviour
         {
             case Scenes.Menu:
                 SceneManager.LoadScene("Menu");
+                break;
+            case Scenes.Instructions:
+                SceneManager.LoadScene("Instructions");
                 break;
             case Scenes.Main:
                 SceneManager.LoadScene("Main");
