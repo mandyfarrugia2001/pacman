@@ -3,6 +3,7 @@ PlayerPath?
 C:/Users/Mandy/Desktop/Pacman.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
+Assets/Scenes/Instructions.unity
 Assets/Scenes/Main.unity
 Assets/Scenes/Win.unity
 Assets/Scenes/Lose.unity
@@ -133,6 +134,7 @@ e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexJitter
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 18438d5babf33ac6dad8159e283e11f1 Assembly-CSharp.dll:.Pacman
 3cae62e09a50c5d5aae8d0536b3d8fde Assembly-CSharp.dll:.ChatController
+77b12dd74862572a4844232382af64b3 Assembly-CSharp.dll:.BackgroundMusic
 e244702e0dc05782229aa524e4d757f5 Assembly-CSharp.dll:TMPro.Examples.TMP_ExampleScript_01
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -199,4 +201,3 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ManageScene
 441444e5c9c8a67c1d1f0ddfc131a43e Assembly-CSharp.dll:.DotsManager
-77b12dd74862572a4844232382af64b3 Assembly-CSharp.dll:.BackgroundMusic
