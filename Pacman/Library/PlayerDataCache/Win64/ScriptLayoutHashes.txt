@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Mandy/Desktop/Pacman.exe
+C:/Users/Mandy/Documents/pacman/Build/Pacman.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Instructions.unity

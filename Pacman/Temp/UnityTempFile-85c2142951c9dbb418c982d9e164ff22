@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:Temp/Unity.TextMeshPro.dll
+/out:Temp/Unity.Analytics.DataPrivacy.dll
 /debug:portable
 /optimize-
 /nostdlib+
@@ -70,6 +70,9 @@
 /reference:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -305,48 +308,6 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\FastAction.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\MaterialReferenceManager.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\PackageResourceImporterWindow.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextContainer.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshPro.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TextMeshProUGUI.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Asset.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ColorGradient.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Compatibility.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_CoroutineTween.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_DefaultControls.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Dropdown.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_FontAsset.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputField.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_InputValidator.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_LineInfo.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ListPool.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MaterialManager.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_MeshInfo.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ObjectPool.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_ScrollbarEventHandler.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SelectionCaret.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Settings.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Sprite.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAnimator.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAsset.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Style.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_StyleSheet.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMesh.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_SubMeshUI.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_Text.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextElement.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextInfo.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_TextUtilities.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateManager.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_UpdateRegistery.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMP_XmlTagStack.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_EventManager.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ExtensionMethods.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_FontUtilities.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_MeshUtilities.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_Private.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_ShaderUtilities.cs
-C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.textmeshpro@1.3.0\Scripts\Runtime\TMPro_UGUI_Private.cs
+C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs
+C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs
+C:\Users\Mandy\Documents\pacman\Pacman\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs
